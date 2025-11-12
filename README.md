@@ -52,7 +52,7 @@ ylabel('Probability/Relative Frequency');
 xticks([0 1]);
 xticklabels({'0 (1-p)', '1 (p)'});
 
-% MATLAB Code for Average Bits per Bit vs. Block Size
+% MATLAB Code for figure 3, Average Bits per Bit vs. Block Size
 clear; close all; clc;
 % --- 1. System Parameters (Updated) ---
 p_edge = 0.25;       % Edge connection probability (p)
@@ -106,7 +106,7 @@ legend('Empirical H(X^B)/B', 'Location', 'NorthEast');
 grid on;
 % Save the figure
 saveas(gcf, 'Bernoulli sequence_ bits per bit vs block size.png');
-%% Plot 2: Top 20 Most Frequent ER Graphs
+%maylab code for figure 4; Top 20 Most Frequent ER Graphs
 clear; clc;
 
 n = 15;
